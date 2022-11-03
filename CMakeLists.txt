@@ -10,6 +10,6 @@ set(CMAKE_CXX_STANDARD 11)
 
 
 # --------------------------------------------
-# include_directories(include)
+include_directories(include)
 
-# add_executable(<executable-name> <path-to-source>)
+add_executable(hello-world ./src/hello_world.cpp)
